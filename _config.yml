@@ -16,7 +16,7 @@
 title: Chester Yang's Blog
 email: chesterinshaw@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  description
+  Simplicity is the ultimate sophistication.
 baseurl: ""
 url: "https://chesteryang.github.io"
 twitter_username: ChesterYang
@@ -24,7 +24,7 @@ github_username:  chesteryang
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-tactile
+theme: minima
 plugins:
   - jekyll-feed
 
