@@ -2,7 +2,7 @@
 layout: post
 title:  "Reset adventureworks person passwords"
 date:   2018-07-03 13:14:21 -0600
-categories: general
+categories: C#
 ---
 
 One way to reset all passwords of Person.Password table of AdventureWorks database.
