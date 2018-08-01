@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Fix an ESlint issue in Visual Studio Code"
+title:  "Fix an ESLint issue in Visual Studio Code"
 date:   2018-08-01 09:21:00 -0600
 categories: nodejs
 ---
 
-Fix an ESlint issue in Visual Studio Code
+Fix an ESLint issue in Visual Studio Code
 ===================================================================================
 
 Today when I started my asp.net core angular project in VS Code, I noticed on the status bar there was an ESLint error icon. Switching to ESLint debug console, I got the following error:
