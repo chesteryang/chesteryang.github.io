@@ -32,6 +32,6 @@ Running [CoreReact](https://github.com/chesteryang/CoreReact){:target="_blank"} 
 7. Clone CoreReact solution from github.
 8. Install Visual Studio Code + C#, GitLens, TSLint, ESLint extensions.
 9. Restore C# solution and npm packages.
-10. Increate [watchers' handles](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc){:target="_blank"}.	
+10. Increase [watchers' handles](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc){:target="_blank"}.	
 11. Start to debug.
 12. Linux is case-sensitive but Windows is not. Due to this difference, when running in Linux, a defect was found: database name (Chinook.db) in config and actual file name (chinook.db) is different.
