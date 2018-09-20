@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Deploy nodejs/graphql project to heroku"
+title:  "Deploy nodejs/graphql project to Heroku"
 date:   2018-09-20 11:00:00 -0600
 categories: nodejs
 ---
 
-Deploy graphql yoga/typescript/typeorm/chinook project to heroku
+Deploy graphql yoga/typescript/typeorm/chinook project to Heroku
 ===================================================================================
 
 The project's github repo is [here](https://github.com/chesteryang/graphql-ts).
