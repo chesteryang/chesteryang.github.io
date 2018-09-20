@@ -22,7 +22,7 @@ If there is a value on process.env.PORT, the server will listen to it as Heroku 
 ```json
       "heroku-postbuild": "npm run build"
 ```
-"heroku-postbuild" provides a chance to run script after npm install and before pruning dev dependencies. We utilize this chance to do compile and package the application into dist folder. Heroku will look into "Profile" file to start the application:
+"heroku-postbuild" provides a chance to run script after npm install and before pruning dev dependencies. We utilize this chance to compile and package the application into dist folder. Heroku will look into "Profile" file to start the application:
 ```
 web: node dist/index.js
 ```
