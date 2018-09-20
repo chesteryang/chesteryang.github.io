@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deploy nodejs project to heroku"
+title:  "Deploy nodejs/graphql project to heroku"
 date:   2018-09-20 11:00:00 -0600
 categories: nodejs
 ---
@@ -10,7 +10,7 @@ Deploy graphql yoga/typescript/typeorm/chinook project to heroku
 
 The project's github repo is [here](https://github.com/chesteryang/graphql-ts).
 
-1. The first task to take care of is environment variable: process.env.PORT. Heroku will set this variable to a port number for the project's express server to listen to. So in the project we have such statement (src/startServer.ts):
+1. The first task to take care of is environment variable: process.env.PORT. Heroku will set this variable to a port number for the project's expressjs server to listen to. So in the project we have such statement (src/startServer.ts):
 ```JavaScript
     const port = process.env.PORT || 8030;
 ```
