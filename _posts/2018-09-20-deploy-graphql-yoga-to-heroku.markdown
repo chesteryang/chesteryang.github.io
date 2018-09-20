@@ -29,6 +29,4 @@ web: node dist/index.js
 
 4. The project uses typeorm as sqlite database orm and ormconfig.json will need the setup for *.js entities etc.
 
-
-
 The deployed website is [here](https://chinook-gql.herokuapp.com/). As the webiste is on dynos, it will take a while to load for the first time.
