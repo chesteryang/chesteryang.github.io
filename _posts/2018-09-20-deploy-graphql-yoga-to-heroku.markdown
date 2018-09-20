@@ -8,7 +8,7 @@ categories: nodejs
 Deploy graphql yoga/typescript/typeorm/chinook project to Heroku
 ===================================================================================
 
-The project's github repo is [here](https://github.com/chesteryang/graphql-ts).
+The project's github repo is [here](https://github.com/chesteryang/graphql-ts){:target="_blank"}.
 
 1. The first task to take care of is environment variable: process.env.PORT. Heroku will set this variable to a port number for the project's expressjs server to listen to. So in the project we have such statement (src/startServer.ts):
 ```JavaScript
@@ -29,4 +29,4 @@ web: node dist/index.js
 
 4. The project uses typeorm as sqlite database orm and ormconfig.json will need the setup for *.js entities etc.
 
-The deployed website is [here](https://chinook-gql.herokuapp.com/). As the webiste is on dynos, it will take a while to load for the first time.
+The deployed website is [here](https://chinook-gql.herokuapp.com/){:target="_blank"}. As the webiste is on dynos, it will take a while to load for the first time.
